@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               Sn2
 tagline:             'Lamentations on iOS'
-description:         'Odds and ends that worked'
+description:         'odds and ends that compiled, once'
 url:                 http://sntwo.github.io
 baseurl:             /
 paginate:            5
