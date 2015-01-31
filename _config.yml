@@ -10,9 +10,9 @@ relative_permalinks: true
 
 # Setup
 title:               Sn2
-tagline:             'Lamentations on iOS'
-description:         'odds and ends that compiled, once'
-url:                 http://sntwo.github.io
+tagline:             'Lamentations on swift & iOS'
+description:         'odds and ends that compiled, once upon a time'
+url:                 http://github.com/sntwo
 baseurl:             /
 paginate:            5
 
