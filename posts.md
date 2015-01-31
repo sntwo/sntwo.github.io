@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: posts by tag
 ---
 
 
