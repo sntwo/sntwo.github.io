@@ -12,7 +12,7 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}  <a href="{{ post.url }}" data-disqus-identifier="{{ post.url }}">comments</a></span> 
+    <span class="post-date">{{ post.date | date_to_string }}  <a href="{{ post.path }}" data-disqus-identifier="{{ post.path }}">comments</a></span> 
     
     {{ post.content }}
   </div>
