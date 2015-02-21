@@ -12,8 +12,8 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} &nbsp <a href="{{ post.url | split:'/' | last | cgi_escape }}" data-disqus-identifier="{{ post.url | split:'/' | last | cgi_escape }}">comments</a></span> 
-    
+    <span class="post-date">{{ post.date | date_to_string }}</span> 
+    <span class="disqus-comment-count" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}>comments</span>
     {{ post.content }}
   </div>
   {% endfor %}
